@@ -10,11 +10,14 @@
         android:id="@+id/map_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintStart_toStartOf="parent"
+        mapbox:layout_constraintTop_toTopOf="parent"
         mapbox:mapbox_cameraTargetLat="23.1815"
         mapbox:mapbox_cameraTargetLng="79.9864"
-        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/traffic-day-v2"
         mapbox:mapbox_cameraZoom="12"
-        >
+        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/traffic-day-v2">
 
     </com.mapbox.mapboxsdk.maps.MapView>
 
